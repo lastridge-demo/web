@@ -1,0 +1,6 @@
+{
+  "service": "web",
+  "version": "1.0.0",
+  "region": "us-west-2",
+  "features": {}
+}

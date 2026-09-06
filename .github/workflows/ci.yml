@@ -1,0 +1,46 @@
+name: ci
+on:
+  push:
+    branches: [main]
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: unit tests
+        run: scripts/test.sh
+  deploy-dev:
+    name: deploy-dev
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: dev
+      url: https://acme.observif.ai/${{ github.event.repository.name }}/dev
+    steps:
+      - uses: actions/checkout@v4
+      - name: roll out to dev
+        run: scripts/deploy.sh dev
+        env:
+          ACME_DEPLOY_TOKEN: ${{ secrets.ACME_DEPLOY_TOKEN }}
+  deploy-prod:
+    name: deploy-prod
+    needs: deploy-dev
+    # Prod only ships when the commit asks for it. Commits that land on main
+    # without it are exactly what the board calls drift.
+    if: contains(github.event.head_commit.message, '[prod]')
+    runs-on: ubuntu-latest
+    environment:
+      name: prod
+      url: https://acme.observif.ai/${{ github.event.repository.name }}/prod
+    steps:
+      - uses: actions/checkout@v4
+      - name: roll out to prod
+        run: scripts/deploy.sh prod
+        env:
+          ACME_DEPLOY_TOKEN: ${{ secrets.ACME_DEPLOY_TOKEN }}
+      - name: smoke
+        run: curl -fsS "https://acme.observif.ai/${{ github.event.repository.name }}/prod" >/dev/null && echo "prod answers"
