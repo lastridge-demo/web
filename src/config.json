@@ -1,6 +1,6 @@
 {
   "features": {
-    "annualPricing": false,
+    "annualPricing": true,
     "auditLog": true,
     "darkMode": false,
     "rateLimitV2": false,
@@ -11,5 +11,5 @@
   "replicas": 2,
   "service": "web",
   "timeoutMs": 400,
-  "version": "1.5.1"
+  "version": "1.5.2"
 }
