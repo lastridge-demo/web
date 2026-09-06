@@ -5,13 +5,13 @@
     "batchIngest": false,
     "cdnAssets": true,
     "darkMode": false,
-    "rateLimitV2": false,
+    "rateLimitV2": true,
     "sessionRestore": false,
     "taxPreview": false
   },
   "region": "us-west-2",
-  "replicas": 3,
+  "replicas": 4,
   "service": "web",
   "timeoutMs": 1100,
-  "version": "1.16.1"
+  "version": "1.17.0"
 }
