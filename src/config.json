@@ -3,15 +3,15 @@
     "annualPricing": false,
     "auditLog": false,
     "batchIngest": true,
-    "cdnAssets": false,
+    "cdnAssets": true,
     "darkMode": true,
     "rateLimitV2": false,
     "sessionRestore": true,
     "taxPreview": true
   },
   "region": "us-west-2",
-  "replicas": 5,
+  "replicas": 2,
   "service": "web",
-  "timeoutMs": 600,
-  "version": "1.33.1"
+  "timeoutMs": 1100,
+  "version": "1.34.0"
 }

@@ -79,3 +79,4 @@
 - 1.32.0: release: web 1.32.0
 - 1.33.0: release: web 1.33.0
 - 1.33.1: feat(pricing): annual toggle
+- 1.34.0: release: web 1.34.0
