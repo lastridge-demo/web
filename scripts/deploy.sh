@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # "Deploy" = ship this commit's version to the live Acme status service at
-# https://acme.observif.ai/<repo>/<env>. It is a real network deploy with a
+# https://acme.shipglance.com/<repo>/<env>. It is a real network deploy with a
 # real failure mode (the service down => the job fails), which is what the
 # board should show. Usage: scripts/deploy.sh <env>
 set -euo pipefail
@@ -22,7 +22,7 @@ PY
 )"
 echo "rolling out $repo $version (${GITHUB_SHA:0:7}) to $env_name"
 sleep 6   # a rollout takes time; the board should get to show "running"
-curl -fsS --retry 3 --retry-delay 3 -X POST "https://acme.observif.ai/api/deploy" \
+curl -fsS --retry 3 --retry-delay 3 -X POST "https://acme.shipglance.com/api/deploy" \
   -H "Authorization: Bearer $ACME_DEPLOY_TOKEN" -H 'Content-Type: application/json' -d "$payload"
 echo
-echo "live: https://acme.observif.ai/$repo/$env_name"
+echo "live: https://acme.shipglance.com/$repo/$env_name"

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Unit-test stand-in for the observif.ai demo repos. Every check is real
+# Unit-test stand-in for the shipglance.com demo repos. Every check is real
 # (schema validity of src/*.json, presence of required keys), and the
 # storyline driver can make it fail honestly by committing .demo/break with
 # the failure text the log should show. Removing the file is "the fix".

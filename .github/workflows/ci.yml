@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: dev
-      url: https://acme.observif.ai/${{ github.event.repository.name }}/dev
+      url: https://acme.shipglance.com/${{ github.event.repository.name }}/dev
     steps:
       - uses: actions/checkout@v4
       - name: roll out to dev
@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: prod
-      url: https://acme.observif.ai/${{ github.event.repository.name }}/prod
+      url: https://acme.shipglance.com/${{ github.event.repository.name }}/prod
     steps:
       - uses: actions/checkout@v4
       - name: roll out to prod
@@ -43,4 +43,4 @@ jobs:
         env:
           ACME_DEPLOY_TOKEN: ${{ secrets.ACME_DEPLOY_TOKEN }}
       - name: smoke
-        run: curl -fsS "https://acme.observif.ai/${{ github.event.repository.name }}/prod" >/dev/null && echo "prod answers"
+        run: curl -fsS "https://acme.shipglance.com/${{ github.event.repository.name }}/prod" >/dev/null && echo "prod answers"
