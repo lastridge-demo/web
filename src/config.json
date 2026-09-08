@@ -13,5 +13,5 @@
   "replicas": 3,
   "service": "web",
   "timeoutMs": 700,
-  "version": "1.48.0"
+  "version": "1.48.1"
 }
