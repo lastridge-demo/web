@@ -117,3 +117,7 @@ Drift on this lane means main has commits prod has not seen; ship a release to c
 ## checkout runbook for on-call
 
 Drift on this lane means main has commits prod has not seen; ship a release to clear it (updated 2026-09-12).
+
+## checkout runbook for on-call
+
+Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-09-12).
