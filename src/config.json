@@ -4,7 +4,7 @@
     "auditLog": false,
     "batchIngest": false,
     "cdnAssets": false,
-    "darkMode": false,
+    "darkMode": true,
     "rateLimitV2": true,
     "sessionRestore": true,
     "taxPreview": true
@@ -13,5 +13,5 @@
   "replicas": 6,
   "service": "web",
   "timeoutMs": 800,
-  "version": "1.52.0"
+  "version": "1.52.1"
 }
