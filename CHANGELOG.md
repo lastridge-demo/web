@@ -199,3 +199,4 @@
 - 1.79.0: release: web 1.79.0
 - 1.79.1: feat(pricing): annual toggle
 - 1.80.0: release: web 1.80.0
+- 1.80.1: feat(checkout): show tax before payment step
