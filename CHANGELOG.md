@@ -257,3 +257,4 @@
 - 1.102.1: feat(checkout): show tax before payment step
 - 1.102.2: fix(account): keep session on tab restore
 - 1.103.0: release: web 1.103.0
+- 1.103.1: feat(pricing): annual toggle
