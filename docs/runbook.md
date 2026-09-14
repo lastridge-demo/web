@@ -209,3 +209,7 @@ The verify step compares the ledger invariants against the deployed version (upd
 ## checkout runbook for on-call
 
 The verify step compares the ledger invariants against the deployed version (updated 2026-09-14).
+
+## checkout runbook for on-call
+
+The verify step compares the ledger invariants against the deployed version (updated 2026-09-14).
