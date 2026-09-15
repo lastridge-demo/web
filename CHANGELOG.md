@@ -306,3 +306,4 @@
 - 1.122.0: release: web 1.122.0
 - 1.122.1: feat(pricing): annual toggle
 - 1.122.2: feat(pricing): annual toggle
+- 1.123.0: release: web 1.123.0
