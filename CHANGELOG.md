@@ -425,3 +425,4 @@
 - 1.167.2: fix(account): keep session on tab restore
 - 1.168.0: release: web 1.168.0
 - 1.169.0: release: web 1.169.0
+- 1.169.1: fix(account): keep session on tab restore
