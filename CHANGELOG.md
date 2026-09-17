@@ -490,3 +490,4 @@
 - 1.196.0: release: web 1.196.0
 - 1.196.1: feat(pricing): annual toggle
 - 1.197.0: release: web 1.197.0
+- 1.198.0: release: web 1.198.0
