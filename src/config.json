@@ -13,5 +13,5 @@
   "replicas": 6,
   "service": "web",
   "timeoutMs": 1200,
-  "version": "1.203.2"
+  "version": "1.204.0"
 }
