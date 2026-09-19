@@ -489,3 +489,7 @@ Check the deploy board before paging anyone; most alerts here resolve on the nex
 ## checkout runbook for on-call
 
 Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-09-19).
+
+## checkout runbook for on-call
+
+Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-09-19).
