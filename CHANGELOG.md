@@ -685,3 +685,4 @@
 - 1.276.0: release: web 1.276.0
 - 1.277.0: release: web 1.277.0
 - 1.277.1: feat(checkout): show tax before payment step
+- 1.278.0: release: web 1.278.0
