@@ -800,3 +800,4 @@
 - 1.321.0: release: web 1.321.0
 - 1.321.1: feat(checkout): show tax before payment step
 - 1.321.2: fix(account): keep session on tab restore
+- 1.322.0: release: web 1.322.0
