@@ -828,3 +828,4 @@
 - 1.332.0: release: web 1.332.0
 - 1.332.1: feat(pricing): annual toggle
 - 1.333.0: release: web 1.333.0
+- 1.333.1: feat(checkout): show tax before payment step
