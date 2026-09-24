@@ -907,3 +907,4 @@
 - 1.363.2: fix(account): keep session on tab restore
 - 1.363.3: feat(checkout): show tax before payment step
 - 1.363.4: fix(account): keep session on tab restore
+- 1.363.5: fix(account): keep session on tab restore
