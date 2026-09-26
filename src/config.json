@@ -12,6 +12,6 @@
   "region": "us-west-2",
   "replicas": 4,
   "service": "web",
-  "timeoutMs": 900,
-  "version": "1.432.1"
+  "timeoutMs": 800,
+  "version": "1.433.0"
 }
