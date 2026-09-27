@@ -1107,3 +1107,4 @@
 - 1.442.0: release: web 1.442.0
 - 1.442.1: feat(checkout): show tax before payment step
 - 1.443.0: release: web 1.443.0
+- 1.443.1: feat(checkout): show tax before payment step
