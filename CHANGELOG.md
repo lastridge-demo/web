@@ -1206,3 +1206,4 @@
 - 1.483.0: release: web 1.483.0
 - 1.483.1: feat(checkout): show tax before payment step
 - 1.483.2: fix(account): keep session on tab restore
+- 1.484.0: release: web 1.484.0
