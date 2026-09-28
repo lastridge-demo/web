@@ -1178,3 +1178,4 @@
 - 1.471.0: release: web 1.471.0
 - 1.472.0: release: web 1.472.0
 - 1.472.1: feat(pricing): annual toggle
+- 1.473.0: release: web 1.473.0
