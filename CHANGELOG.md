@@ -1253,3 +1253,4 @@
 - 1.501.2: fix(account): keep session on tab restore
 - 1.502.0: release: web 1.502.0
 - 1.502.1: feat(pricing): annual toggle
+- 1.503.0: release: web 1.503.0
