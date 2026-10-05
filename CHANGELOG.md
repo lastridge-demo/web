@@ -1629,3 +1629,4 @@
 - 1.652.1: feat(pricing): annual toggle
 - 1.653.0: release: web 1.653.0
 - 1.653.1: feat(pricing): annual toggle
+- 1.654.0: release: web 1.654.0
