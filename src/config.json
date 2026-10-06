@@ -6,12 +6,12 @@
     "cdnAssets": false,
     "darkMode": false,
     "rateLimitV2": false,
-    "sessionRestore": false,
+    "sessionRestore": true,
     "taxPreview": true
   },
   "region": "us-west-2",
   "replicas": 5,
   "service": "web",
   "timeoutMs": 800,
-  "version": "1.687.1"
+  "version": "1.687.2"
 }
