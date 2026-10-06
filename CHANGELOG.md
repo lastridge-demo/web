@@ -1748,3 +1748,4 @@
 - 1.701.2: fix(account): keep session on tab restore
 - 1.702.0: release: web 1.702.0
 - 1.702.1: feat(pricing): annual toggle
+- 1.703.0: release: web 1.703.0
