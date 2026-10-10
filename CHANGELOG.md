@@ -2005,3 +2005,4 @@
 - 1.804.1: feat(pricing): annual toggle
 - 1.805.0: release: web 1.805.0
 - 1.805.1: feat(checkout): show tax before payment step
+- 1.805.2: fix(account): keep session on tab restore
