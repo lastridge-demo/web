@@ -2,7 +2,7 @@
   "features": {
     "annualPricing": false,
     "auditLog": true,
-    "batchIngest": true,
+    "batchIngest": false,
     "cdnAssets": false,
     "darkMode": false,
     "rateLimitV2": false,
@@ -12,6 +12,6 @@
   "region": "us-west-2",
   "replicas": 3,
   "service": "web",
-  "timeoutMs": 800,
-  "version": "1.801.2"
+  "timeoutMs": 400,
+  "version": "1.802.0"
 }
