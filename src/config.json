@@ -5,7 +5,7 @@
     "batchIngest": true,
     "cdnAssets": false,
     "darkMode": false,
-    "rateLimitV2": false,
+    "rateLimitV2": true,
     "sessionRestore": false,
     "taxPreview": true
   },
@@ -13,5 +13,5 @@
   "replicas": 2,
   "service": "web",
   "timeoutMs": 900,
-  "version": "1.821.1"
+  "version": "1.821.2"
 }
