@@ -1741,3 +1741,7 @@ The verify step compares the ledger invariants against the deployed version (upd
 ## checkout runbook for on-call
 
 Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-10-13).
+
+## checkout runbook for on-call
+
+Roll back by re-running the last green deploy job, never by force-pushing main (updated 2026-10-13).
