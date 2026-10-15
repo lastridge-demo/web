@@ -2278,3 +2278,4 @@
 - 1.913.2: fix(account): keep session on tab restore
 - 1.914.0: release: web 1.914.0
 - 1.914.1: feat(pricing): annual toggle
+- 1.915.0: release: web 1.915.0
