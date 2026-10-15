@@ -2,7 +2,7 @@
   "features": {
     "annualPricing": false,
     "auditLog": false,
-    "batchIngest": true,
+    "batchIngest": false,
     "cdnAssets": true,
     "darkMode": false,
     "rateLimitV2": false,
@@ -12,6 +12,6 @@
   "region": "us-west-2",
   "replicas": 6,
   "service": "web",
-  "timeoutMs": 800,
-  "version": "1.919.0"
+  "timeoutMs": 1200,
+  "version": "1.919.1"
 }
