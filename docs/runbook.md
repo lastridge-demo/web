@@ -2957,3 +2957,7 @@ Check the deploy board before paging anyone; most alerts here resolve on the nex
 ## checkout runbook for on-call
 
 Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-11-06).
+
+## checkout runbook for on-call
+
+Check the deploy board before paging anyone; most alerts here resolve on the next deploy (updated 2026-11-06).
