@@ -4040,3 +4040,4 @@
 - 1.1617.2: fix(account): keep session on tab restore
 - 1.1618.0: release: web 1.1618.0
 - 1.1618.1: feat(pricing): annual toggle
+- 1.1619.0: release: web 1.1619.0
