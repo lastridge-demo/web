@@ -4211,3 +4211,4 @@
 - 1.1686.0: release: web 1.1686.0
 - 1.1686.1: feat(pricing): annual toggle
 - 1.1687.0: release: web 1.1687.0
+- 1.1687.1: feat(checkout): show tax before payment step
