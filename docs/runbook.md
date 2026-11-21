@@ -3749,3 +3749,7 @@ Drift on this lane means main has commits prod has not seen; ship a release to c
 ## checkout runbook for on-call
 
 The verify step compares the ledger invariants against the deployed version (updated 2026-11-21).
+
+## checkout runbook for on-call
+
+The verify step compares the ledger invariants against the deployed version (updated 2026-11-21).
