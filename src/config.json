@@ -1,7 +1,7 @@
 {
   "features": {
     "annualPricing": false,
-    "auditLog": true,
+    "auditLog": false,
     "batchIngest": true,
     "cdnAssets": true,
     "darkMode": true,
@@ -10,8 +10,8 @@
     "taxPreview": true
   },
   "region": "us-west-2",
-  "replicas": 4,
+  "replicas": 2,
   "service": "web",
   "timeoutMs": 500,
-  "version": "1.1880.2"
+  "version": "1.1881.0"
 }
