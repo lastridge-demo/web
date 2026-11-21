@@ -4650,3 +4650,4 @@
 - 1.1861.2: fix(account): keep session on tab restore
 - 1.1862.0: release: web 1.1862.0
 - 1.1862.1: fix(account): keep session on tab restore
+- 1.1863.0: release: web 1.1863.0
