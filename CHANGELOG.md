@@ -4894,3 +4894,4 @@
 - 1.1959.0: release: web 1.1959.0
 - 1.1959.1: feat(pricing): annual toggle
 - 1.1960.0: release: web 1.1960.0
+- 1.1960.1: feat(checkout): show tax before payment step
