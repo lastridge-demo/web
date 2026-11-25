@@ -4928,3 +4928,4 @@
 - 1.1972.2: fix(account): keep session on tab restore
 - 1.1973.0: release: web 1.1973.0
 - 1.1973.1: feat(pricing): annual toggle
+- 1.1974.0: release: web 1.1974.0
