@@ -4,14 +4,14 @@
     "auditLog": false,
     "batchIngest": false,
     "cdnAssets": true,
-    "darkMode": false,
+    "darkMode": true,
     "rateLimitV2": false,
     "sessionRestore": false,
     "taxPreview": false
   },
   "region": "us-west-2",
-  "replicas": 4,
+  "replicas": 5,
   "service": "web",
   "timeoutMs": 400,
-  "version": "1.1973.0"
+  "version": "1.1973.1"
 }
