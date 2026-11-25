@@ -4919,3 +4919,4 @@
 - 1.1969.0: release: web 1.1969.0
 - 1.1969.1: feat(pricing): annual toggle
 - 1.1970.0: release: web 1.1970.0
+- 1.1970.1: feat(checkout): show tax before payment step
