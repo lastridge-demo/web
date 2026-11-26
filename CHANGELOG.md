@@ -5029,3 +5029,4 @@
 - 1.2013.0: release: web 1.2013.0
 - 1.2013.1: feat(pricing): annual toggle
 - 1.2014.0: release: web 1.2014.0
+- 1.2014.1: feat(checkout): show tax before payment step
