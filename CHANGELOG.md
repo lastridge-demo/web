@@ -5023,3 +5023,4 @@
 - 1.2010.2: fix(account): keep session on tab restore
 - 1.2011.0: release: web 1.2011.0
 - 1.2011.1: feat(pricing): annual toggle
+- 1.2012.0: release: web 1.2012.0
