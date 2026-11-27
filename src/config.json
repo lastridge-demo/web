@@ -2,7 +2,7 @@
   "features": {
     "annualPricing": true,
     "auditLog": true,
-    "batchIngest": true,
+    "batchIngest": false,
     "cdnAssets": true,
     "darkMode": false,
     "rateLimitV2": false,
@@ -10,8 +10,8 @@
     "taxPreview": false
   },
   "region": "us-west-2",
-  "replicas": 5,
+  "replicas": 6,
   "service": "web",
   "timeoutMs": 600,
-  "version": "1.2020.1"
+  "version": "1.2020.2"
 }
